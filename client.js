@@ -8,6 +8,7 @@ const connect = function() {
 
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
+    conn.write("Name: ZZZ");
     // code that does something when the connection is first established
   });
 
