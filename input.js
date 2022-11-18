@@ -14,19 +14,27 @@ const setupInput = (conn) => {
 
 const handleUserInput = function(key) {
 
-  if (key === '\w') {
+  if (key === "m") {
+    connection.write("Say: I love pizza!");
+  }
+
+  if (key === "n") {
+    connection.write("Say: Pineapples are okay on pizza!");
+  }
+
+  if (key === 'w') {
     connection.write("Move: up");
   }
 
-  if (key === '\a') {
+  if (key === 'a') {
     connection.write("Move: left");
   }
 
-  if (key === '\s') {
+  if (key === 's') {
     connection.write("Move: down");
   }
 
-  if (key === '\d') {
+  if (key === 'd') {
     connection.write("Move: right");
   }
 
