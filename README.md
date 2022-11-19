@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["screenshot 1 in-game"](https://user-images.githubusercontent.com/112141373/202869375-cfe9dc06-74e4-474b-bc1a-be80cdd048aa.jpg)
+!["screenshot 2 running the game"](https://user-images.githubusercontent.com/112141373/202869445-4fa2c222-5391-475b-8e21-1bb880315f66.jpg)
 
 
 ## Getting Started
