@@ -14,16 +14,13 @@ const connect = function() {
     // setTimeout(() => {
     //   conn.write("Move: left");
     // }, 1000);
-    
     // code that does something when the connection is first established
   });
-
+  
   conn.on("data", (data) => {
     console.log("Server says ", data);
-    
     // code that does something
   });
-
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
